@@ -1,0 +1,27 @@
+<?php
+return [
+    'transfer_depreciation' => 'Transfer depreciation support',
+    'depre_wallet' => 'The wallet supports depreciation',
+    'fund_depre_wallet' => 'Money from the wallet supports depreciation',
+    'fund_payment_wallet' => 'Money received into payment wallet',
+    'enter_amount' => 'enter_amount',
+    'title_deposit' => 'P2P Trading - Buy "Dong may" using your preferred payment method.',
+    'note_title_deposit' => 'Deposit and withdraw easily, safely and quickly, supporting the most payment methods today.',
+    'deposit' => 'Deposit',
+    'deposit_money' => 'I want to deposit',
+    'receive_money' => 'I will receive',
+    'deposit_method' => 'Choose deposit method',
+    'method_1' => 'Transfer',
+    'method_2' => 'Transfer from wallet to receive depreciation support',
+    'bank_name' => 'Bank name',
+    'account_number' => 'Account number',
+    'account_owner' => 'Account Owner',
+    'branch' => 'Bank branch',
+    'money_transfer' => 'Amount deposited',
+    'note_transfer' => 'Transfer content',
+    'continue' => 'Continue',
+    'sale_limit_transfer' => 'Chuyển đổi ví bán hàng',
+    'sale_limit' => 'Ví bán hàng',
+    'coin_from_wallet' => 'Tiền từ ví chính',
+    'fund_to_sale_limit' => 'Tiền nhận vào ví bán hàng'
+];

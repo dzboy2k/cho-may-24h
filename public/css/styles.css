@@ -1,0 +1,38 @@
+
+:root {
+  --grey-100: #E9E9E9;
+  --grey-200: #D2D2D2;
+  --grey-300: #9C9C9C;
+}
+
+.item__list:hover{
+  background-color: var(--grey-100);
+}
+
+.content--wrap {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+/* scrollbar custom */
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: var(--grey-100);
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: var(--grey-100);
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	background-color: var(--grey-300);
+}

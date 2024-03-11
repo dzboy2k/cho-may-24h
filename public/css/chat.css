@@ -1,0 +1,67 @@
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.icon-upload-img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.mw-80 {
+    max-width: 80%;
+}
+
+.scrollable-list-messager {
+    height: 70vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.bagde-pos {
+    right: -3px;
+    top: .8rem;
+}
+
+.scrollable-message {
+    height: 50vh;
+    overflow: auto;
+    position: relative;
+}
+
+.scrollable-message::-webkit-scrollbar {
+    width: 0;
+}
+
+.delete-img-btn {
+    top: -8px;
+    right: -8px;
+    background-color: rgb(255, 0, 0);
+    padding-left: 1px;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    font-size: 8px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 13px;
+    font-weight: bold;
+}
+
+.list-group-item.active {
+    background-color: var(--neutral-100);
+}
+
+.hide {
+    visibility: hidden !important;
+}
+
+.msg-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}

@@ -1,0 +1,25 @@
+.title_table,
+.text_table {
+  font-size: 12px;
+}
+
+.title_table {
+  text-align: left;
+}
+
+.text_table {
+  text-align: right;
+}
+
+@media (min-width: 1200px) {
+  .title_table,
+  .text_table {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 760px) {
+    .align-center-mobile {
+        text-align: center;
+    }
+}
